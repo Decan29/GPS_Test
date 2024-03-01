@@ -4,7 +4,7 @@
 title = Ankeralarm
 
 # (str) Package name
-package.name = GPS_TEST
+package.name = ankeralarm
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.test
@@ -44,10 +44,10 @@ requirements = python3, kivy, https://github.com/HyTurtle/plyer/archive/master.z
 # requirements.source.kivy = ../../kivy
 
 # (str) Presplash of the application
-# presplash.filename = %(source.dir)s/icons/appicon.png
+presplash.filename = %(source.dir)s/icons/appicon.png
 
 # (str) Icon of the application
-# icon.filename = %(source.dir)s/icons/appicon.png
+icon.filename = %(source.dir)s/icons/appicon.png
 
 # (str) Supported orientation (one of landscape, sensorLandscape, portrait or all)
 orientation = portrait
