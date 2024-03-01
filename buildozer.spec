@@ -45,6 +45,8 @@ orientation = portrait
 
 # (bool) Indicate if the application should be fullscreen or not
 fullscreen = 0
+android.archs = arm64-v8a
+p4a.branch = release-2022.12.20
 
 
 #
